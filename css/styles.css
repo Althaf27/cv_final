@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  padding-top: 30px;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 90px;
+  color: #0c134f;
+  color: #537188;
+}
+
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.top-cloud,
+.bottom-cloud {
+  width: 100px;
+}
+
+.mountain {
+  width: 70vw;
+  margin: 0 auto;
+  /* padding-top: 70px; */
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.top-cloud {
+  position: absolute;
+
+  top: 0;
+  right: 0px;
+}
+
+.title-container {
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 10px;
+  /* width: 500px; */
+  margin: 0 auto;
+}
+
+.title-container p {
+  font-size: 20px;
+  /* color: #cbb279; */
+  color: #537188;
+  color: #0c134f;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+.profile img {
+  width: 200px;
+}
+
+.middle-container {
+  background-color: white;
+}
+
+.develop-img {
+  width: 150px;
+  float: left;
+  margin-right: 30px;
+}
+
+.think-img {
+  width: 150px;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50vw;
+  margin: 50px auto;
+  text-align: left;
+}
+
+.skill-row p {
+  line-height: 1.5;
+}
+
+.second {
+  padding-top: 40px;
+}
+
+.profile {
+  padding: 50px;
+  line-height: 2;
+  /* background-color: #eccdb4; */
+}
+
+.skills {
+  padding-top: 100px;
+}
+
+hr {
+  border: 7px #cbcbcb dotted;
+  border-bottom: none;
+  width: 60px;
+  margin: 0 auto;
+  clear: both;
+}
+
+.contact-me {
+  padding-top: 100px;
+  line-height: 2.5;
+  /* background-color: #eeeeee; */
+}
+
+.contact-me p {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.btn {
+  margin: 20px 0 50px 0;
+  background-color: #0c134f;
+  padding: 2px 15px;
+  border-radius: 9%;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #4e57a2;
+  transition: 0.5s;
+}
+
+.bottom-container {
+  padding: 20px;
+  background-color: #537188;
+}
+
+.footer-link {
+  color: #b6eafa;
+  display: inline-block;
+  margin: 5px 20px 10px 50px;
+  text-decoration: none;
+}
+
+.intro {
+  width: 30%;
+  margin: 0 auto;
+}
